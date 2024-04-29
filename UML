@@ -1,0 +1,19 @@
+@startuml
+participant Script
+participant OVP_API
+
+Script -> OVP_API: Send request for video details
+activate OVP_API
+
+OVP_API -> OVP_API: Retrieve video details for specified IDs
+activate OVP_API
+
+OVP_API --> Script: Return video details
+deactivate OVP_API
+
+Script -> Script: Process retrieved video details
+Script -> Script: Handle any errors encountered
+Script -> Script: Organize data into XML and CSV formats
+Script -> Script: Save data to XML and CSV files
+
+@enduml
