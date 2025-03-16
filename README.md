@@ -20,3 +20,5 @@ The script leverages an OVP's API to fetch precise details for a set of videos i
 	•	XML Output: Video details are neatly organized within <videos> and <video> elements in the XML output.
 	•	CSV Output: The CSV output generates a tabular representation with columns for video attributes.
 	•	Completion Message: Upon successful completion, the script informs the user of the creation of XML and CSV files, signaling the completion of the data processing task.
+
+[![DOI](https://zenodo.org/badge/793475166.svg)](https://doi.org/10.5281/zenodo.15035058)
